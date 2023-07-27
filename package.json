@@ -1,0 +1,23 @@
+{
+  "name": "linkcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phyrexxxxx/LinkCrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phyrexxxxx/LinkCrawler/issues"
+  },
+  "homepage": "https://github.com/phyrexxxxx/LinkCrawler#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}

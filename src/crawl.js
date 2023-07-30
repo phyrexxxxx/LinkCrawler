@@ -22,14 +22,12 @@ async function crawlPage(baseURL, currentURL, pages) {
 
         if (response.status > 399) {
             console.log(`Error in fetch with status code: ${response.status} on page: ${currentURL}`);
-            // return;
             return pages;
         }
         
         const contentType = response.headers.get('Content-Type');
         if (!contentType.includes('text/html')) {
             console.log(`Non-HTML response, content type: ${contentType} on page: ${currentURL}`);
-            // return;
             return pages;
         }
         
